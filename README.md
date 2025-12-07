@@ -31,10 +31,11 @@ Idempotent Execution: Ensures that if a workflow is accidentally triggered twice
 📈 Efficiency Metrics
 CDAS is built to scale with your workload.
 
-Metric	Without CDAS	With CDAS Automation
-Task Latency	High (Hours/Days)	Near Real-Time (ms/seconds)
-Error Rate	5-10% (Human Error)	< 0.01% (Validation Logic)
-Scalability	Linear (More Staff needed)	Exponential (Auto-scaling pods)
+| Metric | Without CDAS | With CDAS Automation |
+| :--- | :--- | :--- |
+| **Task Latency** | High (Hours/Days) | **Near Real-Time (ms/seconds)** |
+| **Error Rate** | 5-10% (Human Error) | **< 0.01% (Validation Logic)** |
+| **Scalability** | Linear (More Staff needed) | **Exponential (Auto-scaling pods)** |
 
 📚 Documentation Structure
 This repository contains the definitive guides for utilizing the platform:
@@ -49,6 +50,7 @@ If you encounter an edge case or a runtime exception:
 Submit an Issue: Please provide the full stack trace and reproduction steps.
 Knowledge Base: Check the Wiki for common troubleshooting on API rate limits and concurrency handling.
 Streamline your operations. Automate intelligently.
+
 
 
 
