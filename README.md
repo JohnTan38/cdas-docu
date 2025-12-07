@@ -11,7 +11,7 @@ Eliminate data silos. Our API-first integration layer ensures that legacy mainfr
 🛠 System Architecture Overview
 Understanding how CDAS handles your requests helps you build better workflows.
 
-'''mermaid
+```mermaid
 graph TD
     User[End User / Client] -->|Submits Trigger| API[API Gateway]
     API -->|Validates Request| Queue[Message Queue]
@@ -20,7 +20,8 @@ graph TD
     Worker1 -->|Write Data| DB[(Central Database)]
     Worker2 -->|Write Data| DB
     DB -->|Sync Status| Dashboard[User Dashboard]
-'''
+```
+
 
 Core Components
 Orchestration Engine: The brain of the system that manages dependencies and execution order of your automation scripts.
@@ -48,6 +49,7 @@ If you encounter an edge case or a runtime exception:
 Submit an Issue: Please provide the full stack trace and reproduction steps.
 Knowledge Base: Check the Wiki for common troubleshooting on API rate limits and concurrency handling.
 Streamline your operations. Automate intelligently.
+
 
 
 
