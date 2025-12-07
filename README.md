@@ -40,9 +40,9 @@ CDAS is built to scale with your workload.
 📚 Documentation Structure
 This repository contains the definitive guides for utilizing the platform:
 
-quick-start/: Zero-to-hero guides on setting up your first cron job and configuring OAuth2 authentication.
-api-reference/: Full Swagger/OpenAPI definitions for programmatic access to the CDAS backend.
-blueprints/: Pre-configured JSON schemas for common use cases (e.g., Invoice Processing, User Onboarding).
+1. `quick-start/`: Zero-to-hero guides on setting up your first cron job and configuring OAuth2 authentication.
+2. `api-reference/`: Full Swagger/OpenAPI definitions for programmatic access to the CDAS backend.
+3. `blueprints/`: Pre-configured JSON schemas for common use cases (e.g., Invoice Processing, User Onboarding).
 
 🤝 Support & Contribution
 If you encounter an edge case or a runtime exception:
@@ -50,6 +50,7 @@ If you encounter an edge case or a runtime exception:
 Submit an Issue: Please provide the full stack trace and reproduction steps.
 Knowledge Base: Check the Wiki for common troubleshooting on API rate limits and concurrency handling.
 Streamline your operations. Automate intelligently.
+
 
 
 
