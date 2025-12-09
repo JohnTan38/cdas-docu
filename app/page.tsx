@@ -25,7 +25,7 @@ const documentationSections = [
         }
       ],
       architecture: true,
-      image: '/schematic_architecture.PNG'
+      image: '/schematic_architecture.png'
     }
   },
   {
@@ -117,7 +117,7 @@ const documentationSections = [
           content: 'The workflow integrates with various systems including email notifications, database storage, reporting tools, and external APIs for comprehensive data management.'
         }
       ],
-      image: "/process_automation.PNG",
+      image: "/process_automation.png",
       workflow: true
     }
   },
